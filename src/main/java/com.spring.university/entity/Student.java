@@ -8,7 +8,7 @@ import javax.validation.constraints.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "student", schema = "university")
+@Table(name = "student")
 public class Student {
 
     @Id

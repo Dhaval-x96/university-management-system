@@ -10,7 +10,7 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "department",schema = "university")
+@Table(name = "department")
 public class Department implements Serializable {
 
     @Id

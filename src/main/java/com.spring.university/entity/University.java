@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Set;
 
 @Entity
-@Table(name = "university", schema = "University")
+@Table(name = "university")
 public class University implements Serializable {
 
     @Id
